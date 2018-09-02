@@ -1,0 +1,6 @@
+"D:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - MinGW Makefiles" "E:\textbook\sophomore term 2\super computing\4\prod_cons"
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP: TRUE   
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/textbook/sophomore term 2/super computing/4/prod_cons/cmake-build-release

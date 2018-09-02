@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(prod_cons C)
+
+set(CMAKE_C_STANDARD 11)
+FIND_PACKAGE( OpenMP REQUIRED)
+if(OPENMP_FOUND)
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} ${OpenMP_EXE_LINKER_FLAGS}")
+    add_executable(prod_cons main.c)
+else()
+    message("OPENMP NOT FOUND")
+    file(REMOVE prod_cons)
+endif()

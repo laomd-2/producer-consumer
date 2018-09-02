@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/textbook/sophomore term 2/super computing/4/prod_cons/main.c
+omp.h
+-
+stdlib.h
+-
+time.h
+-
+stdio.h
+-
+
